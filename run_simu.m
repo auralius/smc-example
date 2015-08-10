@@ -14,7 +14,7 @@ sim('smc_mass_1d.slx')
 
 %% Phase plot of e vs edot
 figure;
-plot(phaseplot(:,1), phaseplot(:,2),'.')
+plot(phaseplot(:,1), phaseplot(:,2))
 xlabel('e')
 ylabel('edot');
 title('Phase plot')
